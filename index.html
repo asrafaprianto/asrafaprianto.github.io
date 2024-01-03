@@ -68,10 +68,10 @@
           </div>
           <div class="row justify-content-center fs-5 text-center mt-3">
             <div class="col-md-4">
-              <p>Hello!! I'm a UI/UX Designer from Jakarta, Indonesia. I create efficient and innovative experience that balance user needs and business goal.</p>
+              <p>Hello!! I'm a UI/UX Designer from Semarang, Indonesia. I create efficient and innovative experience that balance user needs and business goal.</p>
             </div>
             <div class="col-md-4">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, in dolorem reiciendis, voluptatum odio rem minus at ad fugiat delectus placeat id voluptatem accusamus atque.</p>
+              <p>I'm graduated Informatics Engineering in Semarang State Polytechnic who has passion in Design especially UI/UX Designer.</p>
             </div>
           </div>
         </div>
@@ -141,18 +141,33 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-8">
-            <form>
+            <form action="https://formsubmit.co/asrafaprianto@gmail.com" method="POST">
+
+              <!-- Honeypot -->
+              
+              <input type="text" name="_honey" style="display: none;">
+
+              <!-- Disable capcha -->
+
+              <input type="hidden" name="_captcha" value="false">
+
+              <!-- The end of Honeypot -->
+
               <div class="mb-3">
-                <label for="name" class="form-label">Complete Name</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" />
+                <label for="firstname" class="form-label">First Name</label>
+                <input type="text" class="form-control" name="name" id="firstname" aria-describedby="name" required />
               </div>
               <div class="mb-3">
-                <label for="email" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" />
+                <label for="lastname" class="form-label">Last Name</label>
+                <input type="text" class="form-control" name="Last Name" id="lastname" aria-describedby="lastname" required />
+              </div>
+              <div class="mb-3"> 
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" name="email" id="email" aria-describedby="email" required/>
               </div>
               <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <label for="comments" class="form-label">Comments, Questions?</label>
+                <textarea class="form-control" id="comments" rows="3" name="comments, questions"></textarea>
               </div>
               <button type="submit" class="btn btn-warning">Submit</button>
             </form>
@@ -177,5 +192,6 @@
     <!-- Akhir Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  </body>
+
+
 </html>
